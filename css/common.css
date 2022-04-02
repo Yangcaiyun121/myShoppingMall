@@ -1,0 +1,241 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.style_red {
+    color: #ce161e;
+}
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut ul li {
+    float: left;
+}
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #6c6c6c;
+    margin: 9px 15px 0 15px;
+}
+.fr .iconfont {
+    margin-left: 5px;
+}
+.header {
+    position: relative;
+    height: 105px;
+
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    /* 让文字隐藏方法一 */
+    /* font-size: 0; */
+    /* 让文字隐藏方法二 */
+    text-indent: -999px;
+    overflow: hidden;
+}
+.header .search {
+    position: absolute;
+    left: 347px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+.header .search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+.header .search button {
+    float: right;
+    width: 80px;
+    height: 32px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #b1191a;
+}
+.header .hotwords {
+    position: absolute;
+    top: 68px;
+    left: 347px;
+}
+.header .hotwords a {
+    margin: 0 10px;
+}
+.header .shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+.shopcar .icon-gouwuche {
+    color: #b1191a;
+}
+.shopcar .count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 14px;
+    line-height: 14px;
+    background-color: #e60012;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+}
+.dropdown .dd {
+    display: block;
+    width: 100%;
+    height: 465px;
+    background-color: #c81623;
+}
+.dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+}
+/* .dropdown .dd ul li::after {
+    content: "";
+} */
+.dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+}
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+.dropdown .dd ul li:hover a {
+    color: #b1191a;
+}
+.dropdown .dd ul li .iconfont {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+}
+.nav .navitems {
+    float: left;
+}
+.nav .navitems ul li {
+    float: left;
+}
+.nav .navitems ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.footer {
+    height: 418px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+.footer .mod_service {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_service ul li {
+    float: left;
+    width: 240px;
+    height: 50px;
+    padding-left: 35px;
+}
+.footer .mod_service h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+}
+.footer .mod_service h5 {
+    background: url(../images/icons.png) no-repeat -252px -2px;
+}
+.footer .mod_service .h52 {
+    background: url(../images/icons.png) no-repeat -254px -52px;
+}
+.service_txt {
+    margin-top: 5px;
+}
+.service_txt h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.service_txt p {
+    font-size: 12px;
+}
+.footer .mod_help {
+    height: 188px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.mod_help dl {
+    float: left;
+    width: 200px;
+
+}
+.mod_help dl:last-child {
+    width: 100px;
+    text-align: center;
+}
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.mod_copyright {
+    text-align: center;
+    padding-top: 15px;
+}
+.mod_copyright .links {
+    margin-bottom: 10px;
+}
+.mod_copyright .links a {
+    padding: 0 3px;
+}
+.mod_copyright .copyright {
+    line-height: 20px;
+}

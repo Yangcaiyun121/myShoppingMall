@@ -1,0 +1,55 @@
+/* 这是列表页专用的CSS */
+.sk {
+    position: absolute;
+    left: 186px;
+    top: 40px;
+    padding-left: 14px;
+    border-left: 1px solid #c81523;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding: 0 25px;
+    line-height: 45px;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 47px;
+}
+.nav {
+    overflow: hidden;
+}
+.sk_hd {
+    height: 120px;
+}
+.sk_bd ul {
+    margin-top: 25px;
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+.sk_bd ul li img {
+    width: 290px;
+    height: 460px;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}

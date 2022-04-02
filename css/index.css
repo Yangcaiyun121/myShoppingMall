@@ -1,0 +1,305 @@
+.main {
+    height: 455px;
+    width: 980px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.main .focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+    overflow: hidden;
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+/* .focus li img {
+    width: 721px;
+    height: 455px;
+} */
+.focus .circle {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 100px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.4); */
+    
+}
+.focus .circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 3px 7px;
+}
+.focus .circle .current {
+    background-color: red;
+}
+.focus .arrow_l {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    z-index: 1;
+}
+.focus .arrow_r {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    z-index: 1;
+}
+.focus ul li {
+    float: left;
+}
+.main .newsflash {
+    float: right;
+    width: 251px;
+    height: 455px;
+}
+.main .news {
+    height: 165px;
+    width: 251px;
+    border: 1px solid #e4e4e4;
+    
+}
+.news_hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news_hd h5 {
+    float: left;
+    line-height: 33px;
+    font-size: 14px;
+}
+.news_hd a {
+    float: right;
+    line-height: 33px;
+}
+.news_bd {
+    padding: 10px 15px;
+}
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 让文字超出的部分隐藏 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    height: 209px;
+    width: 251px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.lifeservice ul {
+    /* 这里由于一行放不下4个li，因此需要将ul的宽度调大一点，然后在外面的父盒子设置 overflow: hidden; 就能放下4个li，同时不会显示超出部分 */
+    width: 253px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    text-align: center;
+    padding-top: 10px;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    background-color: pink;
+    background: url(../images/icons.png) no-repeat -17px -13px;
+}
+.lifeservice ul li .i2 {
+    background: url(../images/icons.png) no-repeat -80px -13px;
+}
+.bargin {
+    margin-top: 5px;
+}
+.recom {
+    height: 163px;  
+    margin-top: 12px;
+}
+.recom .recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom .recom_bd {
+    float: left;
+    width: 994px;
+    height: 163px;
+}
+.recom .recom_bd ul li {
+    float: left;
+}
+.recom .recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+.goods {
+    height: 263px;
+    margin-top: 30px;
+}
+.goods_hd {
+    width: 100%;
+    height: 30px;
+}
+.goods_hd .fl {
+    float: left;
+    font-size: 18px;
+}
+.goods_hd .fr {
+    float: right;
+    font-size: 12px;
+}
+.goods_bd {
+    width: 100%;
+    height: 233px;
+    border: 1px solid #e4e4e4;
+}
+.goods_bd ul {
+    width: 1200px;
+}
+.goods_bd ul li {
+    position: relative;  
+    float: left;
+    width: 200px;
+    height: 233px;
+    padding: 20px 34px;
+}
+/* 让前五个li加分隔的竖线 */
+.goods_bd ul li:nth-of-type(-n+5)::after {
+    position: absolute;
+    right: 0;
+    top: 160px;
+    content: "";
+    width: 1px;
+    height: 65px;
+    background-color: #e4e4e4;
+}
+.goods_bd ul li img {
+    width: 150px;
+    height: 136px;
+    margin-bottom: 10px;
+}
+.goods_bd ul li h5 {
+    font-size: 18px;
+    color: #df3033;
+}
+.box_hd {
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: normal;
+}
+.box_hd .tab_list {
+    float: right;
+    font-size: 12px;
+}
+.box_hd .tab_list ul li {
+    float: left;
+    line-height: 30px;
+}
+.box_hd .tab_list ul li a {
+    margin: 0 12px;
+}
+.box_bd {
+    height: 360px;
+}
+.tab_list_item>div {
+    float: left;
+    height: 360px;
+}
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+.col_210 ul {
+    text-align: center;
+    padding-left: 13px;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 33px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-right: 10px;
+}
+.col_210 img {
+    margin: 10px 20px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    height: 360px;
+    padding-top: 30px;
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    height: 360px;
+    width: 219px;
+    padding-top: 20px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+/*电梯导航*/
+
+.fixedtool {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
